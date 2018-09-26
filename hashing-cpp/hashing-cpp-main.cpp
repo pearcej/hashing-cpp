@@ -1,3 +1,4 @@
+// for understanding hashing in C++
 #include <iostream>
 #include <string>
 #include <unordered_map>
