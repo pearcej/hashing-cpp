@@ -18,6 +18,7 @@ int main()
 	grademap.insert({ 'F', "failing" });	
 
 	// Iterate Over the unordered_map and display elements
+    // Note that this is a WEIRDLY ABNORMAL thing to do with a hash map!!
 	for (pair<char, string> element : grademap)
 		cout << element.first << "\t" << element.second << endl;
 	cout << endl;
@@ -48,6 +49,8 @@ int main()
 	grademap['C'] = "competent";
 
 	// Iterate Over the unordered_map and display elements
+    // Iterate Over the unordered_map and display elements
+    // Note again that this is a WEIRDLY ABNORMAL thing to do with a hash map!!
 	for (pair<char, string> element : grademap)
 		cout << element.first << "\t" << element.second << endl;
 
